@@ -19,20 +19,40 @@
 
 <body>
     <header>
-        <nav class="nav">
-            <a href="../index.html"><img src="../img/mainLogo.png" alt="Metellica Logo" class="mainLogo"></a>
-            <ul class="links">
-                <li><a href="./historia.html">Historia</a></li>
-                <li><a href="./integrantes.html">Integrantes</a>
-                    <ol>
-                        <li><a href="./james.html">James Hetfield</a></li>
-                        <li><a href="./lars.html">Lars Ulrich</a></li>
-                        <li><a href="./kirk.html">Kirk Hammett</a></li>
-                        <li><a href="#">Robert Trujillo</a></li>
-                    </ol>
-                </li>
-                <li><a href="./Discografia.html">Discografia</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg barColor">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/mainLogo.png" class="mainLogo"
+                        alt="Logo de Metallica"></a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./discografia.html">Discografia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./historia.html">Historia</a>
+                        </li>
+
+                        <li class="btn-group">
+                            <button type="button" class="btn btn-danger"><a
+                                    href="./integrantes.html">Integrantes</a></button>
+                            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./james.html">James Hetfield</a></li>
+                                <li><a class="dropdown-item" href="./lars.html">Lars Ulrich</a></li>
+                                <li><a class="dropdown-item" href="./kirk.html">Kirk Hammett</a></li>
+                                <li><a class="dropdown-item" href="./robert.html">Robert Trujillo</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
