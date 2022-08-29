@@ -68,6 +68,10 @@ a:hover {
     border-radius: 0;
 }
 
+.navbar-nav {
+    align-items: flex-end
+}
+
 .btn-group-vertical>.btn, .btn-group>.btn {
     position: relative;
     flex: 0;
@@ -98,7 +102,7 @@ h3 {
 
 .mainTitle {
     display: flex;
-    width: 70vw;
+    width: 95vw;
     font-family: 'Qwitcher Grypen', cursive;
     margin: 0 auto;
     color: #ffffff;
