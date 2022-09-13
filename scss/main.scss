@@ -5,66 +5,9 @@
 }
 
 @import "./sections/header";
+@import "./sections/mainIndex";
 
 
-// main
-
-.titulo {
-    @extend %estiloTitulo;
-}
-
-.mainTitle {
-    display: flex;
-    width: 95vw;
-    font-family: 'Qwitcher Grypen', cursive;
-    margin: 0 auto;
-    color: #ffffff;
-    background-color: #000000;
-    justify-content: center;
-    @include tituloPrincipal (16vw);
-}
-
-h3 {
-    display: flex;
-    font-family: 'Qwitcher Grypen', cursive;
-    justify-content: center;
-    font-size: 50px;
-}
-
-.imgTitle {
-    display: inline-block;
-    width: 100vw;
-}
-
-p {
-    color: #fff;
-    margin: 0 auto;
-    padding: 10px 10px;
-    background-color: #000;
-}
-
-.section {
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    color: #fff;
-
-    img {
-        width: 98vw;
-        margin: 0 auto;
-    }
-}
-
-.videos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    iframe {
-        margin: 0 auto;
-        width: 48vw;
-    }
-}
 
 /* footer */
 
