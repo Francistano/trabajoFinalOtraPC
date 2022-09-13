@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+// variables
+@import "./variables/extend";
+// imports de estilos
 @import "./sections/header";
 @import "./sections/mainIndex";
 

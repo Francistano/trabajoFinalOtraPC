@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box; }
 
+.titulo {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  width: 100vw;
+  align-items: center;
+  justify-content: center; }
+
 /* header */
 .barColor {
   background-color: black; }
@@ -69,23 +77,15 @@ a {
   height: 87px;
   border: 3px black solid; }
 
-.titulo {
-  display: flex;
-  flex-direction: column;
-  background-color: #000;
-  width: 100vw;
-  align-items: center;
-  justify-content: center; }
-
 .mainTitle {
   display: flex;
   width: 95vw;
   font-family: 'Qwitcher Grypen', cursive;
   margin: 0 auto;
   color: #ffffff;
-  font-size: 16vw;
   background-color: #000000;
-  justify-content: center; }
+  justify-content: center;
+  font-size: 16vw; }
 
 h3 {
   display: flex;
